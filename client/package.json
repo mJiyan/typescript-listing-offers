@@ -46,7 +46,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "webpack serve --config ./webpack.config.js --mode development --host localhost",
+    "start": "webpack serve --config ./webpack.config.js --mode development --host 0.0.0.0",
     "build": "webpack --mode production",
     "test": "jest --config ./jest.config.js",
     "eject": "react-scripts eject",

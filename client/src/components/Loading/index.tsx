@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Loading = () => {
   return (
     <div className="flex items-center justify-center align-center grid xl:grid-cols-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 xs:grid-cols-1 xl:mb-auto xl:h-10 lg:mb-auto lg:h-10">

@@ -14,21 +14,25 @@ const Offers = () => {
   const [page, setPage] = useState<number>(1);
   const [totalPages, setTotalPages] = useState<number>(0);
 
+  // calling the list function
   useEffect(() => {
     dispatch(actions.GetOffers());
     loading.current = offerState.loading;
   }, [loading.current]);
 
+  // after calling the list function, set the pagination configuration
   useEffect(() => {
     let offersLength = offerState.offer !== undefined ? offerState.offer.length : 0;
     let totalPages = totalPage(offersLength);
     setTotalPages(totalPages);
   }, [offerState.offer]);
 
+  // setting the page current page number
   const changePage = (pageNumber: number): void => {
     setPage(pageNumber);
   };
 
+  // calculate the total page number for the all list
   const totalPage = (offersLength: number): number => {
     return Math.ceil(offersLength / OFFER_PER_PAGE);
   };

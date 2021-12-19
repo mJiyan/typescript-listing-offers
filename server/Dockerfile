@@ -1,20 +1,21 @@
 
-FROM node:14
+FROM node:12-alpine
 
+RUN apk update && apk add python2 make g++
 
 # Create app directory
 RUN mkdir -p /usr/src/app
-WORKDIR /usr/src/app
+RUN mkdir -p /usr/src/app/server 
+
+WORKDIR /usr/src/app/server
 
 # Install app dependencies
-COPY package.json /usr/src/app/
-
-
+COPY package.json /usr/src/app/server
 RUN npm install
-
 # Bundle app source
-COPY . /usr/src/app
+COPY . /usr/src/app/server
 
 
-# EXPOSE 8081
+EXPOSE 8081
+
 CMD [ "npm", "start" ]

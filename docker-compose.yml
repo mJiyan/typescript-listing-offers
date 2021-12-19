@@ -1,0 +1,26 @@
+version: '3.5'
+services:
+    # Create client container
+    client: # Name of our service
+      build: ./client # path to dockerfile
+      ports: # Port binding to host from docker container
+        - "8080:8080" # Bind port 3000 of host to 3000 of container
+      container_name: client-docker
+      restart: always # What to do if container crashes
+      links:
+        - server  # Create server container
+      networks:
+        - app-network
+    server:
+      # Create server container  
+      build: ./server
+      ports:
+        - "8081:8081"
+      container_name: server-docker
+      restart: always
+      networks:
+        - app-network
+networks:
+  app-network:
+    driver: bridge
+    

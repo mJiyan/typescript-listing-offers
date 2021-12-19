@@ -2,6 +2,7 @@ export const OFFERS_LOADING = "OFFERS_LOADING";
 export const OFFERS_FAIL = "OFFERS_FAIL";
 export const OFFERS_SUCCESS = "OFFERS_SUCCESS";
 
+// declared all offer types here and exported them. in order to enable to reach them easily
 export type OfferType = {
     headlines: OfferName,
     prices: OfferPrice,

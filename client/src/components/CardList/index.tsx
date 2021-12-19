@@ -9,10 +9,13 @@ type Props = {
 };
 
 const CardList: React.FC<Props> = ({ offers, page }) => {
+
+  // this function is returning a selected page number
   const calculateIndex = (page: number): number => {
     return (page - 1) * OFFER_PER_PAGE;
   };
 
+  // this function is returning a selected pages list
   const paginateOffers = (startIndex: number): Array<OfferType> => {
     return offers.slice(startIndex, startIndex + OFFER_PER_PAGE);
   };

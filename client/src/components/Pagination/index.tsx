@@ -6,7 +6,9 @@ type Props = {
   page: number;
 };
 
+// with the changePage function (which is passed from Offers) changing the current page for the list
 const Pagination: React.FC<Props> = ({ totalPages, changePage, page }) => {
+  // this function creating number array for the pagination component's button
   const convertTotalPagesToArray = (totalPage: number): Array<number> => {
     return [...Array(totalPage).keys()].map((num) => num + 1);
   };
