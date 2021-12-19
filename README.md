@@ -1,8 +1,8 @@
 # Listing and Paginating the Car list - Sixt Code Challenge
 
-This is a list application and it is created for the Sixt company in order to show coding skills. Client-side is built using React.js, and the backend-side is created with Node.js (Express.js). 
+This is a list application and it is created to show coding skills to the Sixt (company). The Client-side is developed using React.js, and the backend-side is created with Node.js (Express.js).
 
-I put the Express.js between the client and the API server because the API server is not accepting requests from the browser.
+I put Express.js between the client and the API server because the API server is not accepting requests from the browser.
 
 Created the project using Typescript and Redux(Thunk). 
 
