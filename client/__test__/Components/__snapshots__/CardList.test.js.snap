@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering components it should match with the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <CardList
+    offers={
+      Array [
+        Object {
+          "headlines": Object {
+            "description": "Audi A3 Sedan",
+          },
+          "prices": Object {
+            "totalPrice": Object {
+              "amount": Object {
+                "currency": "EUR",
+                "display": "209,96",
+              },
+            },
+          },
+          "splashImages": Array [
+            Object {
+              "wideMedium": "https://cdn.sixt.io/fleet/images/750x640/audi-a3-4d-mf-01.jpg",
+            },
+          ],
+        },
+      ]
+    }
+    page={1}
+  >
+    <div
+      className="grid xl:grid-cols-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1 items-center xl:mb-auto xl:h-10 "
+    >
+      <Card
+        headlines={
+          Object {
+            "description": "Audi A3 Sedan",
+          }
+        }
+        key="0"
+        prices={
+          Object {
+            "totalPrice": Object {
+              "amount": Object {
+                "currency": "EUR",
+                "display": "209,96",
+              },
+            },
+          }
+        }
+        splashImages={
+          Array [
+            Object {
+              "wideMedium": "https://cdn.sixt.io/fleet/images/750x640/audi-a3-4d-mf-01.jpg",
+            },
+          ]
+        }
+      >
+        <div
+          className="flex items-center justify-center p-3"
+        >
+          <div
+            className="rounded overflow-hidden shadow-lg h-64 w-64 bg-gray-100"
+          >
+            <img
+              className="w-full"
+              src="https://cdn.sixt.io/fleet/images/750x640/audi-a3-4d-mf-01.jpg"
+            />
+            <div
+              className="flex flex-col items-center justify-center py-12"
+            >
+              <p
+                className="text-orange-600 text-lg "
+              >
+                 
+                Audi A3 Sedan
+              </p>
+              <p
+                className="text-sm"
+              >
+                209,96
+                 
+                EUR
+              </p>
+            </div>
+          </div>
+        </div>
+      </Card>
+    </div>
+  </CardList>
+</Provider>
+`;

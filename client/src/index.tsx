@@ -5,6 +5,7 @@ import store from './Store';
 import { Offers } from './views';
 import './assets/style/tailwind.css';
 
+
 ReactDOM.render(
   <Provider store={store}>
     <Offers />

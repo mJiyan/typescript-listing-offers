@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering components it should match with the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Pagination
+    changePage={[Function]}
+    page={1}
+    totalPages={12}
+  >
+    <div
+      className="flex flex-wrap justify-center  xl:h-10  xl:mb-20  "
+    >
+      <ul
+        className="inline-flex"
+        data-testid="list-page-buttons"
+      >
+        <li>
+          <button
+            className="h-10 px-5 text-orange-600 transition-colors duration-150 bg-white rounded-l-lg focus:shadow-outline hover:bg-orange-100"
+            data-testid="prev-button"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Prev
+          </button>
+        </li>
+        <li
+          key="1"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full bg-orange-600 text-white-100"
+            data-testid="1-button"
+            key="1"
+            onClick={[Function]}
+          >
+            1
+          </button>
+        </li>
+        <li
+          key="2"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="2-button"
+            key="2"
+            onClick={[Function]}
+          >
+            2
+          </button>
+        </li>
+        <li
+          key="3"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="3-button"
+            key="3"
+            onClick={[Function]}
+          >
+            3
+          </button>
+        </li>
+        <li
+          key="4"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="4-button"
+            key="4"
+            onClick={[Function]}
+          >
+            4
+          </button>
+        </li>
+        <li
+          key="5"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="5-button"
+            key="5"
+            onClick={[Function]}
+          >
+            5
+          </button>
+        </li>
+        <li
+          key="6"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="6-button"
+            key="6"
+            onClick={[Function]}
+          >
+            6
+          </button>
+        </li>
+        <li
+          key="7"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="7-button"
+            key="7"
+            onClick={[Function]}
+          >
+            7
+          </button>
+        </li>
+        <li
+          key="8"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="8-button"
+            key="8"
+            onClick={[Function]}
+          >
+            8
+          </button>
+        </li>
+        <li
+          key="9"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="9-button"
+            key="9"
+            onClick={[Function]}
+          >
+            9
+          </button>
+        </li>
+        <li
+          key="10"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="10-button"
+            key="10"
+            onClick={[Function]}
+          >
+            10
+          </button>
+        </li>
+        <li
+          key="11"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="11-button"
+            key="11"
+            onClick={[Function]}
+          >
+            11
+          </button>
+        </li>
+        <li
+          key="12"
+        >
+          <button
+            className="h-10 px-2 duration-150  focus:shadow-outline hover:bg-orange-100  rounded-full text-orange-600"
+            data-testid="12-button"
+            key="12"
+            onClick={[Function]}
+          >
+            12
+          </button>
+        </li>
+        <li>
+          <button
+            className="h-10 px-5 text-orange-600 transition-colors duration-150 bg-white rounded-r-lg focus:shadow-outline hover:bg-orange-100"
+            data-testid="next-button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Next
+          </button>
+        </li>
+      </ul>
+    </div>
+  </Pagination>
+</Provider>
+`;

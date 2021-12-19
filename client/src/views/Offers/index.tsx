@@ -21,11 +21,16 @@ const Offers = () => {
 
   useEffect(() => {
     let offersLength = offerState.offer !== undefined ? offerState.offer.length : 0;
-    setTotalPages(Math.ceil(offersLength / OFFER_PER_PAGE));
+    let totalPages = totalPage(offersLength);
+    setTotalPages(totalPages);
   }, [offerState.offer]);
 
   const changePage = (pageNumber: number): void => {
     setPage(pageNumber);
+  };
+
+  const totalPage = (offersLength: number): number => {
+    return Math.ceil(offersLength / OFFER_PER_PAGE);
   };
 
   return (

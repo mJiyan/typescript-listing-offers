@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering components it should match with the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ErrorCard>
+    <div
+      className="flex items-center justify-center h-screen"
+    >
+      <section
+        className="text-center"
+      >
+        <div
+          className="max-w-xs mx-auto px-16"
+        >
+          <img
+            src={
+              Object {
+                "process": [Function],
+              }
+            }
+          />
+        </div>
+        <h2
+          className="mt-8 uppercase text-xl font-black"
+        >
+          We're sorry, but something went wrong.
+        </h2>
+        <p
+          className="mt-6 text-sm text-gray-900"
+        >
+          If you are the application owner check the logs for more information.
+        </p>
+      </section>
+    </div>
+  </ErrorCard>
+</Provider>
+`;

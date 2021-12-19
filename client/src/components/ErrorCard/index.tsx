@@ -1,4 +1,3 @@
-import React from 'react';
 import Exclamation from '../../assets/images/exclamation.png';
 
 const ErrorCard = () => {

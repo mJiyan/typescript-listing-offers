@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering components it should match with the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Header>
+    <nav
+      className="bg-orange-600 h-24"
+    >
+      <div
+        className=" flex items-center justify-center flex-wrap py-2"
+      >
+        <span
+          className="font-semibold text-sm tracking-tight flex flex-col items-center"
+        >
+          <img
+            className="h-16 w-16"
+            src={
+              Object {
+                "process": [Function],
+              }
+            }
+          />
+          <p
+            className="px-5"
+          >
+             Rent a car
+          </p>
+        </span>
+      </div>
+    </nav>
+  </Header>
+</Provider>
+`;
